@@ -13,3 +13,10 @@ class Dog
     "#{@name} #{@breed}".strip
   end
 end
+
+lassie = Dog.new 
+lassie.name = "Lassie"
+lassie.breed = "Collie"
+
+puts lassie.name
+puts lassie.breed
