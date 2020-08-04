@@ -12,7 +12,8 @@ class Dog
   def dog_info
     "#{@name} #{@breed}".strip
   end
-end
+
 
 lassie = Dog.new("Lassie")
 lassie.breed = "Collie"
+end
